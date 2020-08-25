@@ -1,0 +1,280 @@
+
+.logo{
+  width: 30px;
+}
+body {
+
+  text-align: center;
+}
+p {
+  color: #fff;
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #ff9900;
+  padding-top: 100px;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #ff9900;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-image: url("images/4.png");
+  color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 80px;
+  font-weight: bold;
+  padding: 3px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+.toggle-button{
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  background-color: #392613;
+}
+.toggle-button .navbar-toggler-icon{
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  border-radius:10px;
+
+}
+@media (max-width:600px) {
+  .toggle-button{
+    display: flex;
+  }
+  .navbar-links{
+    display: none;
+    width: 100%
+  }
+
+.navbar{
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+.navbar-links ul{
+  width: 100%;
+  flex-direction: column;
+}
+.navbar-links li{
+  text-align: center;
+  }
+  .navbar-links li a{
+    padding: .5rem 1rem;
+  }
+  .navbar-links.active{
+    display: flex;
+  }
+
+}
+
+/* Title Section */
+
+#title {
+
+  text-align: left;
+
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+.title-image{
+  width: 100%;
+  position: relative;
+  padding: 20px;
+  margin-right: 90px;
+}
+
+.about-section{
+  background-image: url("images/2.png");
+}
+.secimg{
+  padding-left:60px;
+  padding-top: 50px;
+  width:450px;
+  padding-bottom: 50px;
+}
+.big-heading2{
+  color: #ff9900;
+  padding-top: 100px;
+  padding-right: 60px;
+  text-align: left;
+}
+.small-text2{
+  color: #fff;
+  font-size: 30px;
+  padding-right: 60px;
+}
+.Gallery{
+  background-image: url("images/4.png");
+}
+.Gallery h1{
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+.grid{
+  display: -ms-flexbox;
+  -ms-flexbox-wrap:wrap;
+  -ms-flexbox-direction:column;
+  -webkit-flex-flow:row wrap;
+  flex-flow: row wrap;
+  display: -webkit-box;
+  display: flex;
+}
+.galleryimg:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.grid div{
+  flex: auto;
+  width: 400px;
+  margin:10px;
+  -ms-flex:auto;
+  -webkit-box-flex:auto;
+}
+.grid div img{
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width:400px){
+  .grid div{
+    margin: 0;
+  }
+  .grid{
+    padding: 0;
+  }
+}
+.bimage{
+  width: 1350px;
+  height: 500px;
+}
+.blog{
+  position: relative;
+  text-align: center;
+  color: #000;
+}
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+.menu{
+  background-image: url("images/4.png");
+  padding: 50px;
+  padding-left: 70px;
+}
+.menu-text{
+  color: #fff;
+  font-size: 40px;
+  padding: 20px;
+  text-align: center;
+}
+.menu .card{
+  display:inline-block;
+  align-items: center;
+  padding: 50px;
+  margin: 20px;
+  padding-top: 70px;
+  background-image: url("images/2.png");
+}
+.menu .card .content h2{
+  color: #ff9900;
+  font-size: 30px;
+  text-align: left;
+  padding-top: 10px;
+}
+.menu .card .content p{
+  color:#fff;
+  font: 20px;
+  font-weight: 500;
+  text-align: left;
+}
+.menu .card:hover{
+  transition: 0.3s ease-in-out;
+  height :250px;
+}
+.menu .card .img{
+  border-radius: 4px;
+}
+ .contact-section{
+  background-color: #ff9900;
+  position: relative;
+  width: 1400px;
+  padding: 80px;
+  display: inline-block;
+}
+.contact-section h4{
+  color: #000;
+  font-size: 40px;
+  font-weight: 500;
+  padding: 20px;
+  text-align: left;
+}
+.contact-section p{
+  text-align: left;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+.contact-details{
+  text-align:left;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+.bottomlogo{
+padding-top: 20px;
+padding-bottom: 8px;
+}
+.icons:hover{
+  color: #fff;
+
+}
+.icon{
+  margin: 20px 10px;
+}
+.social-icon{
+  margin:20px 10px;
+}
